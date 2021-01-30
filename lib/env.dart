@@ -1,0 +1,45 @@
+class Env {
+  static String urlBase = "http://192.168.43.232/flutter/api/";
+  static String login = urlBase + "login.php";
+  static String register = urlBase + "register.php";
+  static String addProduct = urlBase + "addProduct.php";
+  static String product = urlBase + "product.php";
+  static String editProduct = urlBase + "editProduct.php";
+  static String deleteProduct = urlBase + "deleteProduct.php";
+  static String buyProduct = urlBase + "buyProduct.php";
+  static String imageLoader = urlBase + "upload/";
+  static String productUser = urlBase + "productUser.php";
+  static String addOutlet = urlBase + "addOutlet.php";
+  static String outletMaps = urlBase + "outletMaps.php";
+  static String outletDetail = urlBase + "outletDetail.php";
+  static String outletHome = urlBase + "outletHome.php";
+  static String outletAddProduct = urlBase + "addProduct.php";
+  static String outletAddPortofolio = urlBase + "addProduct.php";
+  static String detailProductOutlet = urlBase + "productDetailOutlet.php";
+  static String order = urlBase + "order.php";
+  static String getOrder = urlBase + "getOrder.php";
+  static String getOrderDetail = urlBase + "getOrderDetail.php";
+  static String acceptOrder = urlBase + "acceptOrder.php";
+  static String declineOrder = urlBase + "declineOrder.php";
+  static String getOrderUser= urlBase + "getOrderUser.php";
+  static String acceptOrderUser= urlBase + "acceptOrderUser.php";
+  static String declineOrderUser= urlBase + "declineOrderUser.php";
+  static String processOrder= urlBase + "processOrder.php";
+  static String orderDone= urlBase + "orderDone.php";
+  static String acceptOrderUserFinish= urlBase + "acceptOrderUserFinish.php";
+  static String getHistoryUser= urlBase + "getHistoryOrder.php";  
+  static String rating= urlBase+"test.php";
+  static String searchOutlet = urlBase+"searchOutlet.php";
+  static String getUser=urlBase+"getOutletUser.php";
+  static String editUser= urlBase+"editUser.php";
+  static String userDetail=urlBase+"userDetail.php";
+  static String acceptOrderFinish = urlBase+"acceptOrderFinish.php";
+  static String getHistoryOrder=urlBase+"getHistory.php";
+  static String pickLocation=urlBase+"pickLocation.php";
+  static String outletProfile=urlBase+"outletProfile.php";
+  static String listOutletSlopeOne= urlBase+"listOutletSlopeOne.php";
+  static String changePassword = urlBase + "changePassword.php";
+  static String deleteOutlet  = urlBase +"deleteOutlet.php";
+  static String listOutlet= urlBase+"listOutlet.php";
+}
+
